@@ -6,8 +6,10 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/mkowiel/restraintlib/archive/refs/tags/{{ version }}.tar.gz
+  # url: https://github.com/mkowiel/restraintlib/archive/refs/tags/{{ version }}.tar.gz
   # sha256: {{ sha256 }}
+  git_url: https://github.com/mkowiel/restraintlib.git
+  git_rev: 2021.7.7py2
 
 build:
   number: 0
