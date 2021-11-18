@@ -1,4 +1,4 @@
-{% set version = "2021.7.7" %}
+{% set version = "2021.10.1" %}
 # {% set sha256 = "e3d07556034aa0bfffcff55c6051aa55099c8196a2c4ab77450f9a872863d376" %}
 
 package:
@@ -9,7 +9,7 @@ source:
   # url: https://github.com/mkowiel/restraintlib/archive/refs/tags/{{ version }}.tar.gz
   # sha256: {{ sha256 }}
   git_url: https://github.com/mkowiel/restraintlib.git
-  git_rev: 2021.7.7py2
+  git_rev: 2021.10.1py2
 
 build:
   number: 0
